@@ -1,6 +1,7 @@
 /* GENERAL */
 body {
     font-family: 'Lato', sans-serif;
+    padding : 10px ;
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
@@ -28,42 +29,31 @@ section .heading h2{
 .divider.white {
     background-color: white;
 }
-ul {
+/* ul {
     list-style: none;
-}
-
-/* NAVBAR */
-.navbar {
-    background-color: #d82c2e;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-bottom: 1px solid white;
-}
-.navbar-nav {
-    margin: 0 auto;
-    text-align: center;
-}
-.nav-link {
-    color: white !important;
-    margin: 0 6px;
-}
-.nav-link.active,
-.nav-link:hover {
-    background-color: white;
-    color: #d82c2e !important;
-}
+} */
 
 
 /* ABOUT */
 #about {
-    background-color: #d82c2e;
+    background-color: blue;
 }
 .profile-picture {
     text-align: center;
     margin: 0px auto 30px;
 }
 #about .heading h1 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#about .text-center h1 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#about .text-center h5 {
     color: white;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -86,6 +76,9 @@ ul {
 }
 
 /* SKILLS */
+#skill {
+    background-color: white;
+}
 #skills .heading h2 {
     color: #d82c2e;
 }
@@ -97,7 +90,7 @@ ul {
     margin-bottom: 0px;
 }
 #skills .progress-bar {
-    background-color: #d82c2e;
+    background-color: blue;
 }
 #skills .progress-bar h5 {
     text-shadow: 1px 1px 1px #000;
@@ -301,3 +294,5 @@ footer h5 {
     color: white;
     font-weight: normal;
 }
+
+  
